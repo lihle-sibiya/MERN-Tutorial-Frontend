@@ -24,6 +24,7 @@ class Tutorial extends Component {
   }
 
   componentDidMount() {
+    console.log("Component did mount!");
     this.getTutorial(this.props.router.params.id);
   }
 
